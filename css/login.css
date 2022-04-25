@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+}
+*, *:after, *:before {
+  box-sizing: inherit;
+  margin:0;
+  padding:0;
+}
+
+body {
+  background-color: #6C0301;
+}
+
+
+.contenedor {
+  max-width:1000px;
+  margin:0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+}
+h1, h2 {
+  text-align: center;
+  font-family: 'Proza Libre', sans-serif;
+  color: white;
+}
+div.contenido {
+  width: 60%;
+  margin: 30px auto 0 auto;
+  font-size: 24px;
+}
+div.crear{
+  padding:20px;
+  background-color: #E1E1E1;
+}
+
+h1 {
+  font-size: 30px;
+
+}
+h2 {
+  font-size: 20px;
+}
+
+div.campo {
+  margin-bottom: 20px;
+}
+div.campo label {
+  width: 80px;
+  float: left;
+  font-size:14px;
+  margin-right:20px;
+  text-align: right;
+  margin-top:8px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+div.campo input {
+  height:30px;
+  width: 70%;
+  padding: 10px;
+}
+.boton {
+  background-color: orange;
+  border:none;
+  padding:10px 30px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+
+#spinner{
+  display: none;
+}
+
+#mensaje {
+  margin-top: 10px;
+  border:1px solid green;
+  height:50px;
+  line-height: 50px;
+  color: white;
+  text-transform: uppercase;
+  background-color: green;
+  opacity:0;
+  text-align: center;
+  font-family: arial,helvetica, sans-serif;
+}
+
+div#borrado {
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: arial,helvetica;
+    font-size: 16px;
+    opacity:0;
+
+}
+.activo {
+  background-color: red!important;
+}
